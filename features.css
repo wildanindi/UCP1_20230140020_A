@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.features-section {
+  padding: 80px 20px;
+  background: #efefef;
+  text-align: center;
+}
+.feature-item {
+  display: inline-block;
+  margin: 20px;
+  width: 250px;
+}
+.feature-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.feature-item p {
+  margin-top: 10px;
+}
+video {
+  margin-top: 40px;
+  max-width: 90%;
+}
+
+.header {
+  height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/edu-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.navbar-brand {
+  font-size: 28px !important;
+  color: white !important;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.navbar-nav li a:hover {
+  color: #00ffcc !important;
+}
+
+.input-group {
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.footer {
+  background-image: linear-gradient(#2d557d, #1f3d90);
+  color: white;
+  padding: 60px 20px 30px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer .fa {
+  margin-right: 10px;
+}
+
+.footer hr {
+  border-color: #aaa;
+  margin-top: 30px;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.fa-heart {
+  color: red;
+}

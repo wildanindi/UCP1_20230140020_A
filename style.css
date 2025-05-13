@@ -1,0 +1,238 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Header --- */
+.header {
+  height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/edu-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.navbar-brand {
+  font-size: 28px !important;
+  color: white !important;
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.navbar-nav li a:hover {
+  color: #00ffcc !important;
+}
+
+.input-group {
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.form-control {
+  border: none !important;
+  padding: 15px;
+}
+
+.input-group-text.btn {
+  background-image: linear-gradient(#00c6ff, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 0 30px 30px 0;
+}
+
+/* --- Features Section --- */
+.features {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.features h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feature-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.feature-img img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.price {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background: #0072ff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.rating {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.features .fa {
+  color: #ff9800;
+}
+
+.feature-details {
+  padding: 20px;
+}
+
+.feature-details h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-details span {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* --- Gallery Section --- */
+.gallery {
+  padding: 80px 20px;
+  background: #efefef;
+}
+
+.gallery h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery-box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.gallery-box:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-box h4 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* --- Banner Section --- */
+.banner {
+  height: 300px;
+  background-image: url('images/edu-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner-highlights {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.banner-highlights h2 {
+  font-size: 30px;
+}
+
+.banner-highlights p {
+  font-size: 16px;
+}
+
+.booking-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.booking-btn:hover {
+  background-color: white;
+  color: #0072ff;
+}
+
+/* --- Footer --- */
+.footer {
+  background-image: linear-gradient(#2d557d, #1f3d90);
+  color: white;
+  padding: 60px 20px 30px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer .fa {
+  margin-right: 10px;
+}
+
+.footer hr {
+  border-color: #aaa;
+  margin-top: 30px;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.fa-heart {
+  color: red;
+}
